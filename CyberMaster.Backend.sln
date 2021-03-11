@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster.Backend.WebApi", "CyberMaster.Backend.WebApi\CyberMaster.Backend.WebApi.csproj", "{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D17242A4-9007-4AC0-A5C6-AF7B43AA98D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster.Backend.Infrastructure", "CyberMaster.Backend.Infrastructure\CyberMaster.Backend.Infrastructure.csproj", "{1CCAA9F7-BE0F-442A-943E-E0D77541266D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberMaster.Backend.Core", "CyberMaster.Backend.Core\CyberMaster.Backend.Core.csproj", "{E6233338-4699-4C2D-A786-45267283BF5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCAA9F7-BE0F-442A-943E-E0D77541266D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCAA9F7-BE0F-442A-943E-E0D77541266D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCAA9F7-BE0F-442A-943E-E0D77541266D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCAA9F7-BE0F-442A-943E-E0D77541266D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6233338-4699-4C2D-A786-45267283BF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6233338-4699-4C2D-A786-45267283BF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6233338-4699-4C2D-A786-45267283BF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6233338-4699-4C2D-A786-45267283BF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1CA9A4D2-1F5F-4031-BE9C-4CF2D8E8402C} = {D17242A4-9007-4AC0-A5C6-AF7B43AA98D2}
+		{1CCAA9F7-BE0F-442A-943E-E0D77541266D} = {D17242A4-9007-4AC0-A5C6-AF7B43AA98D2}
+		{E6233338-4699-4C2D-A786-45267283BF5C} = {D17242A4-9007-4AC0-A5C6-AF7B43AA98D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98310D4F-EF3B-4622-84E3-DF1EA1F5ACA4}
+	EndGlobalSection
+EndGlobal
