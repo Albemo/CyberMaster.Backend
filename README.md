@@ -14,7 +14,7 @@
 - Update the connection string in appsettings.json in CyberMaster.Backend.WebApi
 - Build whole solution.
 - Open Package Manager Console Window and type "Update-Database" then press "Enter". This action will create database schema.
-- Execute src/Database/StaticData.sql on the created database to insert seed data.
+- In Progress - Execute src/Database/StaticData.sql on the created database to insert seed data.
 - In Visual Studio, press "Control + F5".
 
 ## Technologies and frameworks used:
